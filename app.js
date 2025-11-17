@@ -1,16 +1,15 @@
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+    import {getDatabase , ref , push} from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
 
-   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
-  import {getDatabase , ref , push} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js";
-   import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-analytics.js";
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyB4lMuCb_RXZX3-FGAf3CMNQAskbjojGIM",
-    authDomain: "authentication-app-21871.firebaseapp.com",
-    projectId: "authentication-app-21871",
-    storageBucket: "authentication-app-21871.firebasestorage.app",
-    messagingSenderId: "488390433019",
-    appId: "1:488390433019:web:4a9962cf73a5bd06c5385e",
-    measurementId: "G-3PGG6YTN1T"
+ const firebaseConfig = {
+    apiKey: "AIzaSyAJsifHJ8ZxrNhc0o1DTIVI5GiCTwhK9M4",
+    authDomain: "form-85710.firebaseapp.com",
+    projectId: "form-85710",
+    storageBucket: "form-85710.firebasestorage.app",
+    messagingSenderId: "508713766944",
+    appId: "1:508713766944:web:bcc861b5eb9a114625ec45",
+    measurementId: "G-XPGLSRY5XQ"
   };
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
@@ -37,3 +36,11 @@
       alert("Error submitting feedback: " + error.message);
    })
   })
+
+
+
+
+
+
+
+
